@@ -67,6 +67,7 @@
           "type": "text",
           "required": true,
           "code": "scouter",
+          "formResetBehavior": "preserve",
           "defaultValue": ""
         },
         {
@@ -75,7 +76,7 @@
           "type": "number",
           "required": true,
           "code": "matchNumber",
-          "formResetBehavior": "reset",
+          "formResetBehavior": "increment",
           "defaultValue": 1
         },
         {
@@ -340,10 +341,15 @@
           "type": "select",
           "required": true,
           "code": "asec",
+          "formResetBehavior":"preserve",
           "defaultValue": "No",
           "choices": {
-            "R": "Red",
-            "B": "Blue"
+            "R1": "Red 1",
+            "R2": "Red 2",
+            "R3": "Red 3",
+            "B1", "Blue 1",
+            "B2": "Blue 2",
+            "B3": "Blue 3"
           }
         }
       ]
