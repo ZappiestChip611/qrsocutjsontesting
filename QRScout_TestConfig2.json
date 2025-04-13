@@ -67,7 +67,6 @@
           "type": "text",
           "required": true,
           "code": "scouter",
-          "formResetBehavior": "reset",
           "defaultValue": ""
         },
         {
@@ -341,7 +340,6 @@
           "type": "select",
           "required": true,
           "code": "asec",
-          "formResetBehavior": "reset",
           "defaultValue": "No",
           "choices": {
             "R": "Red",
