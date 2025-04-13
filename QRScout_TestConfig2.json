@@ -336,6 +336,18 @@
           "formResetBehavior": "reset",
           "defaultValue": false
         }
+        {
+          "title": "Alliance",
+          "type": "select",
+          "required": true,
+          "code": "epo",
+          "formResetBehavior": "reset",
+          "defaultValue": "No",
+          "choices": {
+            "R": "Red",
+            "B": "Blue"
+          }
+        }
       ]
     }
   ]
