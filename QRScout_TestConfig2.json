@@ -340,7 +340,7 @@
           "title": "Alliance",
           "type": "select",
           "required": true,
-          "code": "epo",
+          "code": "asec",
           "formResetBehavior": "reset",
           "defaultValue": "No",
           "choices": {
