@@ -335,7 +335,7 @@
           "code": "dto",
           "formResetBehavior": "reset",
           "defaultValue": false
-        }
+        },
         {
           "title": "Alliance",
           "type": "select",
